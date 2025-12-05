@@ -18,6 +18,10 @@ img {
     padding: 20px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav__container{
     width: 100%;
     max-width: 1200px;
@@ -146,7 +150,7 @@ Highlights
 */
 
 .highlight__wrapper {
-    flex: display;;
+    display: flex;
 }
 
 .highlight {
@@ -175,7 +179,7 @@ Highlights
     margin-bottom: 24px;
 }
 
-highlight__subtitle {
+.highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
 }
